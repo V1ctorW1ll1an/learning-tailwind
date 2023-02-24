@@ -1,0 +1,12 @@
+/* custom configurations */
+@config "../tailwind.site.config.js";
+
+/* tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom class */
+.vertical-line {
+  @apply w-[1px] h-[1rem] bg-[#4b566a] mx-2;
+}
